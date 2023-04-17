@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2219.tf" format="2">
+  <advance width="1176"/>
+  <note>
+		uni2219.tf
+	</note>
+  <outline>
+    <contour>
+      <point x="472" y="783" type="line"/>
+      <point x="472" y="551" type="line"/>
+      <point x="704" y="551" type="line"/>
+      <point x="704" y="783" type="line"/>
+    </contour>
+  </outline>
+</glyph>

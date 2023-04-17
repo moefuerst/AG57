@@ -1,0 +1,282 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+
+
+# GSUB 
+
+
+lookup ccmp_latn_1 {
+  lookupflag 0;
+    sub \fi by \f \i ;
+    sub \fl by \f \l ;
+} ccmp_latn_1;
+
+lookup ordnOrdinalsinLatinlookup1 {
+  lookupflag 0;
+    sub [\zero \one \two \three \four \five \six \seven \eight \nine ] [\A \a ]'  by [\ordfeminine \ordfeminine ];
+    sub [\zero \one \two \three \four \five \six \seven \eight \nine ] [\O \o ]'  by [\ordmasculine \ordmasculine ];
+} ordnOrdinalsinLatinlookup1;
+
+lookup pnumProportionalNumbersinLatinlookup4 {
+  lookupflag 0;
+    sub \approxequal.tf by \approxequal ;
+    sub \asciitilde.tf by \asciitilde ;
+    sub \divide.tf by \divide ;
+    sub \eight.tf by \eight ;
+    sub \equal.tf by \equal ;
+    sub \five.tf by \five ;
+    sub \four.tf by \four ;
+    sub \greater.tf by \greater ;
+    sub \greaterequal.tf by \greaterequal ;
+    sub \less.tf by \less ;
+    sub \lessequal.tf by \lessequal ;
+    sub \logicalnot.tf by \logicalnot ;
+    sub \minus.tf by \minus ;
+    sub \multiply.tf by \multiply ;
+    sub \nine.tf by \nine ;
+    sub \notequal.tf by \notequal ;
+    sub \one.tf by \one ;
+    sub \plus.tf by \plus ;
+    sub \plusminus.tf by \plusminus ;
+    sub \seven.tf by \seven ;
+    sub \six.tf by \six ;
+    sub \three.tf by \three ;
+    sub \two.tf by \two ;
+    sub \uni2219.tf by \uni2219 ;
+    sub \zero.tf by \zero ;
+} pnumProportionalNumbersinLatinlookup4;
+
+lookup tnumTabularNumbersinLatinlookup5 {
+  lookupflag 0;
+    sub \approxequal by \approxequal.tf ;
+    sub \asciitilde by \asciitilde.tf ;
+    sub \divide by \divide.tf ;
+    sub \eight by \eight.tf ;
+    sub \equal by \equal.tf ;
+    sub \five by \five.tf ;
+    sub \four by \four.tf ;
+    sub \greater by \greater.tf ;
+    sub \greaterequal by \greaterequal.tf ;
+    sub \less by \less.tf ;
+    sub \lessequal by \lessequal.tf ;
+    sub \logicalnot by \logicalnot.tf ;
+    sub \minus by \minus.tf ;
+    sub \multiply by \multiply.tf ;
+    sub \nine by \nine.tf ;
+    sub \notequal by \notequal.tf ;
+    sub \one by \one.tf ;
+    sub \plus by \plus.tf ;
+    sub \plusminus by \plusminus.tf ;
+    sub \seven by \seven.tf ;
+    sub \six by \six.tf ;
+    sub \three by \three.tf ;
+    sub \two by \two.tf ;
+    sub \uni2219 by \uni2219.tf ;
+    sub \zero by \zero.tf ;
+} tnumTabularNumbersinLatinlookup5;
+
+lookup caseCaseSensitiveFormsinLatinlookup6 {
+  lookupflag 0;
+    sub \approxequal by \approxequal.case ;
+    sub \asciitilde by \asciitilde.case ;
+    sub \at by \at.case ;
+    sub \backslash by \backslash.case ;
+    sub \braceleft by \braceleft.case ;
+    sub \braceright by \braceright.case ;
+    sub \bracketleft by \bracketleft.case ;
+    sub \bracketright by \bracketright.case ;
+    sub \colon by \colon.case ;
+    sub \divide by \divide.case ;
+    sub \emdash by \emdash.case ;
+    sub \endash by \endash.case ;
+    sub \equal by \equal.case ;
+    sub \exclamdown by \exclamdown.case ;
+    sub \greater by \greater.case ;
+    sub \greaterequal by \greaterequal.case ;
+    sub \guillemotleft by \guillemotleft.case ;
+    sub \guillemotright by \guillemotright.case ;
+    sub \guilsinglleft by \guilsinglleft.case ;
+    sub \guilsinglright by \guilsinglright.case ;
+    sub \hyphen by \hyphen.case ;
+    sub \infinity by \infinity.case ;
+    sub \less by \less.case ;
+    sub \lessequal by \lessequal.case ;
+    sub \logicalnot by \logicalnot.case ;
+    sub \minus by \minus.case ;
+    sub \multiply by \multiply.case ;
+    sub \notequal by \notequal.case ;
+    sub \parenleft by \parenleft.case ;
+    sub \parenright by \parenright.case ;
+    sub \plus by \plus.case ;
+    sub \plusminus by \plusminus.case ;
+    sub \questiondown by \questiondown.case ;
+    sub \slash by \slash.case ;
+    sub \uni00AD by \uni00AD.case ;
+    sub \uni2011 by \uni2011.case ;
+    sub \uni2219 by \uni2219.case ;
+} caseCaseSensitiveFormsinLatinlookup6;
+
+lookup ligaStandardLigaturesinLatinlookup7 {
+  lookupflag IgnoreMarks;
+    sub \f \i  by \fi;
+    sub \f \l  by \fl;
+} ligaStandardLigaturesinLatinlookup7;
+
+lookup zeroSlashedZeroinLatinlookup8 {
+  lookupflag 0;
+    sub \zero by \zero.zero ;
+    sub \zero.tf by \zero.tf.zero ;
+} zeroSlashedZeroinLatinlookup8;
+
+feature ccmp {
+
+ script DFLT;
+     language dflt ;
+      lookup ccmp_latn_1;
+
+ script latn;
+     language dflt ;
+      lookup ccmp_latn_1;
+} ccmp;
+
+feature ordn {
+
+ script DFLT;
+     language dflt ;
+      lookup ordnOrdinalsinLatinlookup1;
+
+ script latn;
+     language dflt ;
+      lookup ordnOrdinalsinLatinlookup1;
+} ordn;
+
+feature pnum {
+
+ script DFLT;
+     language dflt ;
+      lookup pnumProportionalNumbersinLatinlookup4;
+
+ script latn;
+     language dflt ;
+      lookup pnumProportionalNumbersinLatinlookup4;
+} pnum;
+
+feature tnum {
+
+ script DFLT;
+     language dflt ;
+      lookup tnumTabularNumbersinLatinlookup5;
+
+ script latn;
+     language dflt ;
+      lookup tnumTabularNumbersinLatinlookup5;
+} tnum;
+
+feature case {
+
+ script DFLT;
+     language dflt ;
+      lookup caseCaseSensitiveFormsinLatinlookup6;
+
+ script latn;
+     language dflt ;
+      lookup caseCaseSensitiveFormsinLatinlookup6;
+} case;
+
+feature liga {
+
+ script DFLT;
+     language dflt ;
+      lookup ligaStandardLigaturesinLatinlookup7;
+
+ script latn;
+     language dflt ;
+      lookup ligaStandardLigaturesinLatinlookup7;
+} liga;
+
+feature zero {
+
+ script DFLT;
+     language dflt ;
+      lookup zeroSlashedZeroinLatinlookup8;
+
+ script latn;
+     language dflt ;
+      lookup zeroSlashedZeroinLatinlookup8;
+} zero;
+
+# GPOS 
+
+
+lookup kernHorizontalKerninglookup0 {
+  lookupflag 0;
+} kernHorizontalKerninglookup0;
+
+lookup kern_DFLT {
+  lookupflag IgnoreMarks;
+  subtable;
+} kern_DFLT;
+
+lookup kern_latn {
+  lookupflag IgnoreMarks;
+  subtable;
+} kern_latn;
+
+feature kern {
+
+ script DFLT;
+     language dflt ;
+      lookup kernHorizontalKerninglookup0;
+      lookup kern_DFLT;
+      lookup kern_latn;
+
+ script latn;
+     language dflt ;
+      lookup kern_DFLT;
+      lookup kern_latn;
+} kern;
+
+@GDEF_Simple = [\A \AE \AEacute \B \C \Dcroat \E \Eng \Euro \F \G \H \Hbar \I \J \K \L 
+	\Lslash \M \N \O \OE \Oslash \P \Q \R \S \T \Tbar \Thorn \U \V \W \X \Y \Z \a \acute \ae 
+	\ampersand \approxequal \approxequal.case \approxequal.tf \arrowdown 
+	\arrowleft \arrowright \arrowup \asciicircum \asciitilde \asciitilde.case 
+	\asciitilde.tf \asterisk \at \at.case \b \backslash \backslash.case \bar 
+	\braceleft \braceleft.case \braceright \braceright.case \bracketleft 
+	\bracketleft.case \bracketright \bracketright.case \breve \brokenbar \bullet 
+	\c \caron \cedilla \cent \circumflex \colon \colon.case \comma \copyright 
+	\currency \d \dagger \daggerdbl \dcroat \degree \dieresis \divide \divide.case 
+	\divide.tf \dollar \dotaccent \dotlessi \e \eight \eight.tf \ellipsis \emdash 
+	\emdash.case \endash \endash.case \eng \equal \equal.case \equal.tf \estimated 
+	\eth \exclam \exclamdown \exclamdown.case \f \five \five.tf \four \four.tf 
+	\fraction \g \germandbls \grave \greater \greater.case \greater.tf 
+	\greaterequal \greaterequal.case \greaterequal.tf \guillemotleft 
+	\guillemotleft.case \guillemotright \guillemotright.case \guilsinglleft 
+	\guilsinglleft.case \guilsinglright \guilsinglright.case \h \hbar 
+	\hungarumlaut \hyphen \hyphen.case \i \infinity \infinity.case \integral \j \k 
+	\kgreenlandic \l \less \less.case \less.tf \lessequal \lessequal.case 
+	\lessequal.tf \logicalnot \logicalnot.case \logicalnot.tf \lozenge \lslash \m 
+	\macron \minus \minus.case \minus.tf \multiply \multiply.case \multiply.tf \n 
+	\nine \nine.tf \notequal \notequal.case \notequal.tf \numbersign \o \oe \ogonek 
+	\one \one.tf \ordfeminine \ordmasculine \oslash \p \paragraph \parenleft 
+	\parenleft.case \parenright \parenright.case \partialdiff \percent \period 
+	\periodcentered \perthousand \pi \plus \plus.case \plus.tf \plusminus 
+	\plusminus.case \plusminus.tf \product \q \question \questiondown 
+	\questiondown.case \quotedbl \quotedblbase \quotedblleft \quotedblright 
+	\quoteleft \quoteright \quotesinglbase \quotesingle \r \radical \registered 
+	\ring \s \section \semicolon \seven \seven.tf \six \six.tf \slash \slash.case 
+	\space \sterling \summation \t \tbar \thorn \three \three.tf \tilde \trademark 
+	\two \two.tf \u \underscore \uni00A0 \uni00AD \uni00AD.case \uni00B5 \uni018F 
+	\uni0394 \uni03A9 \uni03BC \uni1E9E \uni2011 \uni2011.case \uni20B8 \uni20BA 
+	\uni20BC \uni20BF \uni2126 \uni2196 \uni2197 \uni2198 \uni2199 \uni2206 \uni2215 
+	\uni2219 \uni2219.case \uni2219.tf \uniFEFF \v \w \x \y \yen \z \zero \zero.tf 
+	\zero.tf.zero \zero.zero ];
+@GDEF_Ligature = [\fi \fl ];
+@GDEF_Mark = [\acutecomb \dotbelowcomb \gravecomb \tildecomb \uni0302 \uni0304 
+	\uni0306 \uni0307 \uni0308 \uni030A \uni030B \uni030C \uni030C.alt \uni0312 
+	\uni0326 \uni0327 \uni0328 ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
+
+} GDEF;
+
