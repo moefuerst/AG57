@@ -10,11 +10,6 @@ Please note that the software provided is under CC-BY-NC-SA, so creating OFL-fla
 - The source files were reverse-engineered from the binary files released by the upstream project, with all the limitations that entails.
 - The extensive character set has been reduced (characters which can easily be auto-generated have been removed from the source files for now)
 
-## Background
-The AG needs to be free. After almost 150 years, no public-domain digital version of the ‘original grotesque’ typeface exists (with the sole exception of [“Standard” ](https://github.com/brycewilner/Standard/), a “translation and modification” by Bryce Wilner). While its prominent offspring is de facto public (it’s installed on every computer, or at least its weird cousin is), the much more interesting AG remains caught up in the usual big-type-property regime.
-
-With the announcement of the [publicly funded project “Making the Visible Visible - Berlin's Typographic Cultural Heritage in Open Access”](https://staatsbibliothek-berlin.de/die-staatsbibliothek/projekte/schriftmuster-digital), some had hoped this would finally mean a truly *open* digital AG was coming, especially since the perhaps most knowledgeable [AG connoisseur](https://www.p98a.com/collection/ag57) was involved, who had had his gripes with AG and its, uhm, complicated ““intellectual property”” history in the past. While the released typeface is excellent, unfortunately it has not been published under a permissive license.
-
 ## Contributing
 I appreciate additional information, links to specimens, images of the original AG “Serie 57” in use, etc.
 
