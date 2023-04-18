@@ -6,10 +6,10 @@
 	</note>
   <outline>
     <contour>
-      <point x="529" y="1334" type="line"/>
       <point x="90" y="0" type="line"/>
       <point x="253" y="0" type="line"/>
       <point x="692" y="1334" type="line"/>
+      <point x="529" y="1334" type="line"/>
     </contour>
   </outline>
 </glyph>

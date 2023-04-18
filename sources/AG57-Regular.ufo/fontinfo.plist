@@ -10,12 +10,16 @@
   <integer>-411</integer>
   <key>familyName</key>
   <string>AG57</string>
+  <key>guidelines</key>
+  <array/>
+  <key>italicAngle</key>
+  <integer>0</integer>
   <key>openTypeHeadCreated</key>
-  <string>2023/04/17 22:58:34</string>
+  <string>2023/04/18 10:01:33</string>
   <key>openTypeHheaAscender</key>
   <integer>1853</integer>
   <key>openTypeHheaDescender</key>
-  <integer>-411</integer>
+  <integer>-380</integer>
   <key>openTypeHheaLineGap</key>
   <integer>0</integer>
   <key>openTypeNameDesigner</key>
@@ -30,12 +34,8 @@
   <string>neue</string>
   <key>openTypeNameManufacturerURL</key>
   <string>www.neuefoundry.com</string>
-  <key>openTypeNamePreferredFamilyName</key>
-  <string>AG57</string>
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Regular</string>
-  <key>openTypeNameUniqueID</key>
-  <string>neue: AG57 Regular: 2023</string>
   <key>openTypeNameVersion</key>
   <string>Version 1.100</string>
   <key>openTypeOS2CodePageRanges</key>
@@ -45,6 +45,11 @@
     <integer>4</integer>
     <integer>7</integer>
     <integer>29</integer>
+  </array>
+  <key>openTypeOS2FamilyClass</key>
+  <array>
+    <integer>0</integer>
+    <integer>0</integer>
   </array>
   <key>openTypeOS2Panose</key>
   <array>
@@ -58,10 +63,6 @@
     <integer>0</integer>
     <integer>0</integer>
     <integer>0</integer>
-  </array>
-  <key>openTypeOS2Selection</key>
-  <array>
-    <integer>7</integer>
   </array>
   <key>openTypeOS2StrikeoutPosition</key>
   <integer>584</integer>
@@ -90,7 +91,7 @@
   <key>openTypeOS2TypoDescender</key>
   <integer>-411</integer>
   <key>openTypeOS2TypoLineGap</key>
-  <integer>0</integer>
+  <integer>216</integer>
   <key>openTypeOS2UnicodeRanges</key>
   <array>
     <integer>0</integer>
@@ -120,34 +121,16 @@
   <integer>1853</integer>
   <key>openTypeOS2WinDescent</key>
   <integer>411</integer>
-  <key>postscriptBlueValues</key>
-  <array>
-    <integer>-20</integer>
-    <integer>0</integer>
-    <integer>928</integer>
-    <integer>948</integer>
-  </array>
   <key>postscriptFontName</key>
   <string>AG57-Regular</string>
   <key>postscriptFullName</key>
   <string>AG57 Regular</string>
-  <key>postscriptStemSnapH</key>
-  <array>
-    <integer>130</integer>
-    <integer>135</integer>
-    <integer>145</integer>
-  </array>
-  <key>postscriptStemSnapV</key>
-  <array>
-    <integer>160</integer>
-    <integer>165</integer>
-    <integer>166</integer>
-    <integer>175</integer>
-  </array>
   <key>postscriptUnderlinePosition</key>
-  <integer>-380</integer>
+  <integer>0</integer>
   <key>postscriptUnderlineThickness</key>
-  <integer>130</integer>
+  <integer>0</integer>
+  <key>postscriptWeightName</key>
+  <string>Regular</string>
   <key>styleMapStyleName</key>
   <string>regular</string>
   <key>styleName</key>

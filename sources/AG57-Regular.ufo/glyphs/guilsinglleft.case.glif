@@ -5,14 +5,6 @@
 		guilsinglleft.case
 	</note>
   <outline>
-    <contour>
-      <point x="96" y="579" type="line"/>
-      <point x="459" y="303" type="line"/>
-      <point x="459" y="490" type="line"/>
-      <point x="221" y="667" type="line"/>
-      <point x="459" y="844" type="line"/>
-      <point x="459" y="1031" type="line"/>
-      <point x="96" y="755" type="line"/>
-    </contour>
+    <component base="guilsinglleft" yOffset="83"/>
   </outline>
 </glyph>

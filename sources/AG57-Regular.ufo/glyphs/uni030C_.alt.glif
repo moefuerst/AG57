@@ -4,14 +4,6 @@
 		uni030C.alt
 	</note>
   <outline>
-    <contour>
-      <point x="133" y="1156" type="line"/>
-      <point x="50" y="1003" type="line"/>
-      <point x="146" y="1003" type="line"/>
-      <point x="228" y="1156" type="line"/>
-      <point x="228" y="1334" type="line"/>
-      <point x="50" y="1334" type="line"/>
-      <point x="50" y="1156" type="line"/>
-    </contour>
+    <component base="uni0326" yOffset="1414"/>
   </outline>
 </glyph>

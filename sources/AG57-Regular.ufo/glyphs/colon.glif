@@ -6,17 +6,7 @@
 		colon
 	</note>
   <outline>
-    <contour>
-      <point x="120" y="865" type="line"/>
-      <point x="120" y="671" type="line"/>
-      <point x="294" y="671" type="line"/>
-      <point x="294" y="865" type="line"/>
-    </contour>
-    <contour>
-      <point x="120" y="194" type="line"/>
-      <point x="120" y="0" type="line"/>
-      <point x="294" y="0" type="line"/>
-      <point x="294" y="194" type="line"/>
-    </contour>
+    <component base="period" yOffset="671"/>
+    <component base="period"/>
   </outline>
 </glyph>

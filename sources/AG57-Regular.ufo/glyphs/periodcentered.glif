@@ -6,11 +6,6 @@
 		periodcentered
 	</note>
   <outline>
-    <contour>
-      <point x="120" y="764" type="line"/>
-      <point x="120" y="570" type="line"/>
-      <point x="294" y="570" type="line"/>
-      <point x="294" y="764" type="line"/>
-    </contour>
+    <component base="period" yOffset="570"/>
   </outline>
 </glyph>

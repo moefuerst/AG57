@@ -6,17 +6,7 @@
 		equal
 	</note>
   <outline>
-    <contour>
-      <point x="120" y="454" type="line"/>
-      <point x="120" y="314" type="line"/>
-      <point x="1056" y="314" type="line"/>
-      <point x="1056" y="454" type="line"/>
-    </contour>
-    <contour>
-      <point x="120" y="854" type="line"/>
-      <point x="120" y="714" type="line"/>
-      <point x="1056" y="714" type="line"/>
-      <point x="1056" y="854" type="line"/>
-    </contour>
+    <component base="minus" yOffset="-200"/>
+    <component base="minus" yOffset="200"/>
   </outline>
 </glyph>

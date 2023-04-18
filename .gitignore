@@ -1,4 +1,6 @@
 # OS files
 .DS_Store
 
-/vendor/**/.*
+/sources/backups/
+/sources/logs/
+/vendor/

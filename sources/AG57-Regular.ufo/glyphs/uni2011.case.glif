@@ -5,11 +5,6 @@
 		uni2011.case
 	</note>
   <outline>
-    <contour>
-      <point x="120" y="737" type="line"/>
-      <point x="120" y="597" type="line"/>
-      <point x="575" y="597" type="line"/>
-      <point x="575" y="737" type="line"/>
-    </contour>
+    <component base="hyphen" yOffset="83"/>
   </outline>
 </glyph>

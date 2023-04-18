@@ -6,37 +6,7 @@
 		fl
 	</note>
   <outline>
-    <contour>
-      <point x="203" y="798" type="line"/>
-      <point x="203" y="0" type="line"/>
-      <point x="363" y="0" type="line"/>
-      <point x="363" y="798" type="line"/>
-      <point x="580" y="798" type="line"/>
-      <point x="580" y="928" type="line"/>
-      <point x="363" y="928" type="line"/>
-      <point x="363" y="1087" type="line" smooth="yes"/>
-      <point x="363" y="1166"/>
-      <point x="394" y="1199"/>
-      <point x="466" y="1199" type="curve" smooth="yes"/>
-      <point x="507" y="1199"/>
-      <point x="549" y="1189"/>
-      <point x="594" y="1161" type="curve"/>
-      <point x="594" y="1309" type="line"/>
-      <point x="554" y="1328"/>
-      <point x="498" y="1344"/>
-      <point x="430" y="1344" type="curve" smooth="yes"/>
-      <point x="293" y="1344"/>
-      <point x="203" y="1257"/>
-      <point x="203" y="1092" type="curve" smooth="yes"/>
-      <point x="203" y="928" type="line"/>
-      <point x="35" y="928" type="line"/>
-      <point x="35" y="798" type="line"/>
-    </contour>
-    <contour>
-      <point x="779" y="1334" type="line"/>
-      <point x="779" y="0" type="line"/>
-      <point x="939" y="0" type="line"/>
-      <point x="939" y="1334" type="line"/>
-    </contour>
+    <component base="f"/>
+    <component base="l" xOffset="659"/>
   </outline>
 </glyph>

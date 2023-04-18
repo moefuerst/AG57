@@ -5,23 +5,6 @@
 		guillemotleft.case
 	</note>
   <outline>
-    <contour>
-      <point x="96" y="599" type="line"/>
-      <point x="459" y="323" type="line"/>
-      <point x="459" y="490" type="line"/>
-      <point x="221" y="667" type="line"/>
-      <point x="459" y="844" type="line"/>
-      <point x="459" y="1011" type="line"/>
-      <point x="96" y="735" type="line"/>
-    </contour>
-    <contour>
-      <point x="459" y="735" type="line"/>
-      <point x="459" y="599" type="line"/>
-      <point x="822" y="323" type="line"/>
-      <point x="822" y="490" type="line"/>
-      <point x="584" y="667" type="line"/>
-      <point x="822" y="844" type="line"/>
-      <point x="822" y="1011" type="line"/>
-    </contour>
+    <component base="guillemotleft" yOffset="83"/>
   </outline>
 </glyph>

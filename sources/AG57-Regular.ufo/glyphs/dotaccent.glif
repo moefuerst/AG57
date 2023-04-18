@@ -6,11 +6,6 @@
 		dotaccent
 	</note>
   <outline>
-    <contour>
-      <point x="50" y="1246" type="line"/>
-      <point x="50" y="1069" type="line"/>
-      <point x="228" y="1069" type="line"/>
-      <point x="228" y="1246" type="line"/>
-    </contour>
+    <component base="uni0307"/>
   </outline>
 </glyph>

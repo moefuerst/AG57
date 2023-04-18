@@ -6,17 +6,6 @@
 		dieresis
 	</note>
   <outline>
-    <contour>
-      <point x="491" y="1249" type="line"/>
-      <point x="491" y="1069" type="line"/>
-      <point x="656" y="1069" type="line"/>
-      <point x="656" y="1249" type="line"/>
-    </contour>
-    <contour>
-      <point x="50" y="1249" type="line"/>
-      <point x="50" y="1069" type="line"/>
-      <point x="215" y="1069" type="line"/>
-      <point x="215" y="1249" type="line"/>
-    </contour>
+    <component base="uni0308"/>
   </outline>
 </glyph>
